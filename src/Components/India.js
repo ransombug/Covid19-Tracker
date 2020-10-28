@@ -29,16 +29,16 @@ return (
         <div>
             <Container>
                 <Row>
-                    <Col className='mb-4 mt-4 p-2'>
+                    <Col className=' mt-4 p-2'>
                         {/*Nested Card */}
-                        <Card className='mb-4'>
+                        <Card>
                             <CardBody >
                                 <CardTitle>{title}</CardTitle>
 
                                 <Row>
                                     {/* Card for Active cases */}
                                     <Col>
-                                        <Card id="cardbody" className="text-black text-center"  outline color="info">
+                                        <Card id="cardbody" className="text-black text-center mb-4"  outline color="info">
                                             <CardTitle>Active</CardTitle>
                                             <CardText>{details.confirmed?.value}</CardText>
                                         </Card>
