@@ -17,7 +17,7 @@ export default function Home()
 {
   
 const [mapCenter, setMapCenter] = useState({lat:23.490731,lng: 77.688121})
-const [mapZoom, setMapZoom] = useState(3)
+const [mapZoom, setMapZoom] = useState(4.4)
 const context = useContext(UserContext)
 
   // If no user direct to signin page.
